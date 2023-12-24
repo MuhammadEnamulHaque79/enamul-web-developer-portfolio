@@ -1,0 +1,79 @@
+/* Common shared style */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nav related style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    border: 0px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: var(--White-Color, #FFF);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 150px;
+    height: 45px;
+
+
+}
+
+.nav-title {
+
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 800;
+
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav li {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+
+}
+
+/* Header related style */
+
+.header {
+    background: #FFF8F3;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    display: flex; 
+    align-items: center;
+}
+.banner .profile-picture{
+    width: 584px;
+    /* height: 676px; */
+    /* width: 484px; */
+    /* height: 576px; */
+    /* flex-shrink: 0; */
+}
