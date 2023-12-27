@@ -20,7 +20,7 @@ nav {
     border: 0px;
     border-radius: 5px;
     background: #FD6E0A;
-    color: var(--White-Color, #FFF);
+    color: #FFF;
     font-family: Open Sans;
     font-size: 20px;
     font-style: normal;
@@ -106,7 +106,7 @@ nav li a {
 
 
 /* Main section style */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -139,70 +139,116 @@ main{
 }
 
 
-.about-info-container{
+.about-info-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 
-.skills-container{
+.skills-container {
     display: flex;
-    
+
 }
 
-.skill{
+.skill {
     margin-top: 50px;
     margin-left: 50px;
     background: gainsboro;
     box-shadow: 0px 10px 30px 0px rgb(0, 0.3, 0.1);
     padding: 10px;
     border-radius: 5px;
-   
+
 }
 
-.skill-title{
+.skill-title {
     font-size: 20px;
-    
+
 }
 
-.skill-description{
+.skill-description {
     margin-top: 15px;
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
     padding: 5px;
     text-align: left;
-    
+
 }
-.resume-info{
+
+.resume-info {
     display: flex;
     margin-left: 50px;
     /* border: 1px solid yellow; */
     padding: 20px;
     margin: 20px;
-    
+
 }
 
-.resume-info-left-side{
+.resume-info-left-side {
     /* border: 1px solid green; */
     padding: 10px;
     margin-right: 10px;
 
 }
 
-.resume-info-right-side{
+.resume-info-right-side {
     /* border: 1px solid green; */
     padding: 10px;
 }
 
 
-.btn-primary{
+.btn-primary {
     display: block;
     margin: auto;
-   
+
 }
 
-.resume-info-items{
+.resume-info-items {
     box-shadow: 0px 10px 30px 0px rgb(0, 0.3, 0.1);
     border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    background: gainsboro;
+    margin: 30px;
+}
+
+.footer-column {
+    width: 50%;
+    padding: 20px;
+    gap: 30px;
+}
+
+footer-description {
+    width: 562px;
+    text-align: center;
+}
+
+.contact-info input,
+textarea {
+    display: block;
+    /* margin-top: 15px; */
+    margin-bottom: 20px;
+}
+
+
+input {
+    width: 375px;
+    height: 35px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-btn {
+    border: 0px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 20px;
+    width: 150px;
+    height: 45px;
+    margin-top: 20px;
 }
